@@ -4,6 +4,9 @@
     box-shadow: 5px 5px 0px #4F5D75;
     padding: 18px 20px;
     transition: transform 100ms linear;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .button:hover {
