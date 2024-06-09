@@ -11,19 +11,7 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="Css/reset.css">
-    <link rel="stylesheet" href="Css/Components/main-title.css">
-    <link rel="stylesheet" href="Css/Components/subtitle.css">
-    <link rel="stylesheet" href="Css/Components/banner.css">
-    <link rel="stylesheet" href="Css/Components/box.css">
-    <link rel="stylesheet" href="Css/Components/button.css">
-    <link rel="stylesheet" href="Css/Components/action.css">
-    <link rel="stylesheet" href="Css/Components/header.css">
-    <link rel="stylesheet" href="Css/Components/section.css">
-    <link rel="stylesheet" href="Css/Components/skill-tec.css">
-    <link rel="stylesheet" href="Css/Components/progress-bar.css">
-
-
-
+    <link rel="stylesheet" href="Css/Components/Components.css">
 </head>
 
 <body>
@@ -31,8 +19,8 @@
     <header class="header">
         <img src="assets/logo.png" alt="Avatar do Lucas Gomes">
         <nav>
-            <a class="action" href="" lang="en"> Skills</a>
-            <a class="action" href="" lang="en"> Projects</a>
+            <a class="action" href="" lang="en">Skills</a>
+            <a class="action" href="" lang="en">Projects</a>
             <a class="action" href="">Sobre</a>
             <a class="action" href="">Contatos</a>
             <a class="button" href="" lang="en">Download cv</a>
@@ -42,7 +30,6 @@
     <section class="banner">
         <div class="wrapper">
             <div class="box">
-
                 <h1 class="main-title">Lucas Gomes</h1>
                 <h2 class="subtitle">FullStack Developer</h2>
             </div>
@@ -55,63 +42,53 @@
         </div>
     </section>
     <section class="section">
-        <h2 class="main-title -second">
-            Skills
-        </h2>
-        <!--dl descreve algo um avatar,plano de assinatura,skills-->
-        <dl class="skill-tec">
-            <!--dt description title e dd é define description  -->
-
-            <dd class="icon">
-                <img src="img/ico_html5.png" all="Logo do html em pixel art">
-            </dd>
-            <dt class="title">
-                HTML
-            </dt>
-           
-            <dd class="icon">
-                <img src="img/ico_css3.png" all="logo do Css">
-            </dd>
-            <dt class="title">
-                CSS
-            </dt>
-
-            <dd class="icon">
-                <img src="img/ico_js.png" all="logo de javascript">
+        <h2 class="main-title -second" >Skills</h2>
+        <div class="skill-tec">
+            <div class="skill-item">
+                <dt class="title">HTML</dt>
+                <dd class="icon">
+                    <img src="img/htmllogo.png" height="120" alt="Logo do html em pixel art">
                 </dd>
-                <dt class="title">
-                 JS
-                </dt>
-     
-
-
-           <dd class="icon">
-            <img src="img/pngegg.png" height="120" all="logo do sql">
-           </dd>
-           <dt class="title">
-            SQL
-           </dt>
-
-           
-           <dd class="icon">
-            <img src="img/pngegg (1).png" height="120" all="logo do c#">
-           </dd>
-           <dt class="title">
-            C-SHARP
-            </dt>
-
-            <dd class="icon">
-                <img src="img/iconjava.png"  height="120" all="logo do java">
-               </dd>
-               <dt class="title">
-                JAVA
-            </dt>
-
-
-        </dl>
+            </div>
+            <div class="skill-item">
+                <dt class="title">CSS</dt>
+                <dd class="icon">
+                    <img src="img/csslogo.png" height="120" alt="logo do Css">
+                </dd>
+            </div>
+            <div class="skill-item">
+                <dt class="title">JavaScript</dt>
+                <dd class="icon">
+                    <img src="img/jslogo.png" height="120" alt="logo de javascript">
+                </dd>
+            </div>
+            <div class="skill-item">
+                <dt class="title">SQL</dt>
+                <dd class="icon">
+                    <img src="img/sqllogo.png" height="120" alt="logo do sql">
+                </dd>
+            </div>
+            <div class="skill-item">
+                <dt class="title">C-SHARP</dt>
+                <dd class="icon">
+                    <img src="img/c-sharplogo.png" height="120" alt="logo do c#">
+                </dd>
+            </div>
+            <div class="skill-item">
+                <dt class="title">IONIC</dt>
+                <dd class="icon">
+                    <img src="img/ioniclogo.png" height="120" alt="logo do java">
+                </dd>
+            </div>
+        </div>
     </section>
-    <section>
-       Aba de projetos sendo o caminho do meu repositorio publico
+    <section class="section-pro">
+        <h2 class="main-title -second">Projects</h2>
+        <div class="gitbutton-container">
+            <a class="gitbutton" href="https://github.com/Glomes?tab=repositories" lang="en">
+                <img src="img/githublogo.png" alt="github logo">
+            </a>
+        </div>
     </section>
 </body>
 
