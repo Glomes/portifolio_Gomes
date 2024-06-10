@@ -216,14 +216,31 @@ progress::-webkit-progress-value {
     font-family: 'Press Start 2P', sans-serif;
     color: #FFFFFF;
     text-shadow: 4px 4px 0 #000000;
-    gap: 10px; /* Ajuste o espaço entre os elementos se necessário */
+    gap: 10px;
 }
 
 .subtitle-pro i {
-    font-size: 30px; /* Ajuste o tamanho do ícone conforme necessário */
+    font-size: 30px; 
 }
 
  
+/* #endregion */
+
+
+/* #region sectionabout*/
+.textsobre {
+    text-align: justify;
+    margin: 0 auto; 
+    max-width: 800px; 
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 16px; 
+    line-height: 1.5; 
+    color: #fafafa; 
+    padding: 20px; 
+}
+
+
+
 /* #endregion */
 
 /* #region media-queries */
