@@ -2,12 +2,13 @@
 .skill-tec {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 60px;
     font-family: 'Press Start 2P', sans-serif;
     color: #fafafa;
     font-size: 25px;
     justify-items: center;
     align-items: start;
+    
 }
 
 .skill-item {
@@ -130,6 +131,16 @@
 }
 /* #endregion */
 
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #2D3142;
+    border-bottom: 10px solid #4F5D75;
+    padding: 10px 20px;
+    color: #fafafa;
+
+}
 /* #region main-title */
 .main-title {
     font-family: 'Press Start 2P', sans-serif;
@@ -158,34 +169,7 @@
 }
 /* #endregion */
 
-/* #region progress-bar */
-.progress-bar {
-    box-sizing: border-box;
-    border: 5px solid #000;
-    height: 40px;
-}
 
-.progress-bar::-webkit-progress-bar {
-    background-color: #ccc;
-    width: 100%;
-}
-
-progress::-webkit-progress-value {
-    background-color: #4F5D75 !important;
-    -webkit-transition: all .7s;
-    transition: all .7s;
-}
-
-progress::-webkit-progress-value {
-    background-color: #4F5D75 !important;
-    -webkit-transition: all .7s;
-    transition: all .7s;
-}
-
-.progress-bar::-moz-progress-value {
-    background-color: #4F5D75;
-}
-/* #endregion */
 
 /* #region section */
 .section {
